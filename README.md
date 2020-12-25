@@ -1,2 +1,2 @@
-# ctg7website
-The website for Change Thru Games: Version 7.
+Change Thru Games: Version 7.
+A website made by Brian Nguyen and Jon Estrada.
