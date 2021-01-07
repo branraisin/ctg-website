@@ -50,14 +50,15 @@
 
             <section id= "home">
 
-                <h1 class="line anim-typewriter1" style="font-size: 20px;"> Welcome to</h1>
-                <h1 style="font-size: 70px; width: 50%; margin-left:auto; margin-right:auto; text-align: center; font-family: botsmatic;"> change thru games</h1>
-                <h1 class="line anim-typewriter2"style="font-size: 20px; padding-top: 20%;"> An 8-hour video game marathon brought to you by UCI Circle K!</h1>
+                <h1 class="line anim-typewriter1"> Welcome to</h1>
+                <h1 style="font-size: 55px; width: 50%; margin-left: 20%; font-family: botsmatic;"> change thru games</h1>
+                <h1 class="line anim-typewriter2"style="font-size: 160%; margin-top: 3%;"> An 8-hour video game marathon brought to</h1>
+                <h1 class="line anim-typewriter3"style="font-size: 160%; margin-top: 0%"> you by UCI Circle K!</h1>
 
                 <p>&nbsp;</p>
                 <p>&nbsp;</p>
-
-                <button type="button" style="font-size: 20px; width: 10%; margin-left:auto; margin-right:auto; background-color:#041A1C; color:#69CCE0; border-color: #69CCE0; ">Watch</button>
+    
+                <button class="watch-button" type="button">Watch</button>
 
                 <p>&nbsp;</p>
                 <p>&nbsp;</p>
