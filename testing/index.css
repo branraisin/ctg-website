@@ -1,0 +1,95 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    }
+    /* Add a black background color to the top navigation */
+    #menu {
+        background-color: #68ADB0;
+        overflow: hidden;
+        padding-bottom: 7px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    
+    
+    /* Style the links inside the navigation bar */
+    #menu_right a {
+    position: relative;
+    
+    float: left;
+    color: white;
+    text-align: center;
+    padding-top: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 4px;
+    text-decoration: none;
+    font-size: 18px;
+    }
+    
+    html {
+    scroll-behavior: smooth;
+    }
+    
+    @font-face {
+        font-family: botsmatic;
+        src: url('./fonts/Botsmatic3d-Exl8.ttf');
+    }
+    
+    @font-face {
+        font-family: parikesit;
+        src: url('./fonts/Parikesit-0ZYR.ttf');
+    }
+    
+    @font-face {
+        font-family: neoncity;
+        src: url('./fonts/NeoncityDisplay-MVVLv.otf');
+    }
+    
+    @font-face {
+        font-family: maldini;
+        src: url('./fonts/MaldiniNormal-x37xm.otf');
+    }
+    
+    
+    .line {
+          position: relative;
+          top: 50%;
+          width: 16em;
+          margin: 0 auto;
+          border-right: 2px solid rgba(255, 180, 41, 0.75);
+          font-size: 180%;
+          text-align: center;
+          white-space: nowrap;
+          overflow: hidden;transform: translateY(-50%);
+    }
+    
+    /*Animation*/
+    
+    .anim-typewriter {
+          animation: typewriter 4s steps(40) 1s 1 normal both,
+          blinkTextCursor 500ms steps(40) infinite normal;
+    }
+    
+    @keyframes typewriter {
+          from {
+                width: 0;
+          }
+          to {
+                width: 8em;
+          }
+    }
+    
+    @keyframes blinkTextCursor {
+          from {
+                border-right-color: rgba(255, 180, 41, 0.75);
+          }
+          to {
+                border-right-color: transparent;
+          }
+    }
+    

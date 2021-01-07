@@ -17,11 +17,13 @@
         <title>CTG v6: DLC Edition</title>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
         <link rel="shortcut icon" type="image/png" href="https://i.imgur.com/Z34ZWtw.png">
+        <link href="index.css" rel="stylesheet">
         <meta charset="UTF-8">
     </head>
 
     <head> 
         <body>
+
             <div id="menu">
                 <div id="menu_left">
                 <a class="active" >INSERT LOGO HERE</a>
@@ -33,6 +35,7 @@
                     <a href="https://www.twitch.tv/changethrugames/">04. Watch</a>
                 </div>
             </div>
+
 
             <p>&nbsp;</p>
             <p>&nbsp;</p>
@@ -47,9 +50,9 @@
 
             <section id= "home">
 
-                <h1 style="font-size: 20px; width: 50%; margin-left:auto; margin-right:auto; text-align: center;"> Welcome to</h1>
-                <h1 style="font-size: 60px; width: 50%; margin-left:auto; margin-right:auto; text-align: center;"> Change Thru Games</h1>
-                <h1 style="font-size: 20px; width: 25%; margin-left:auto; margin-right:auto; text-align: center;"> An 8-hour video game marathon brought to you by UCI Circle K!</h1>
+                <h1 class="line anim-typewriter1" style="font-size: 20px;"> Welcome to</h1>
+                <h1 style="font-size: 70px; width: 50%; margin-left:auto; margin-right:auto; text-align: center; font-family: botsmatic;"> change thru games</h1>
+                <h1 class="line anim-typewriter2"style="font-size: 20px; padding-top: 20%;"> An 8-hour video game marathon brought to you by UCI Circle K!</h1>
 
                 <p>&nbsp;</p>
                 <p>&nbsp;</p>
@@ -198,219 +201,3 @@
         </body>
     </head>
 </html>
-
-<style>
-* {
-margin: 0;
-padding: 0;
-font-family: 'Open Sans', sans-serif;
-color: white;
-}
-/* Add a black background color to the top navigation */
-#menu {
-    background-color: #68ADB0;
-    overflow: hidden;
-    padding-bottom: 7px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-
-/* Style the links inside the navigation bar */
-#menu_right a {
-position: relative;
-
-float: left;
-color: white;
-text-align: center;
-padding-top: 14px;
-padding-left: 30px;
-padding-right: 30px;
-padding-bottom: 4px;
-text-decoration: none;
-font-size: 18px;
-}
-
-html {
-scroll-behavior: smooth;
-}
-
-/* Animation for the underline */
-#menu_right a:before {
-content: "";
-position: absolute;
-width: 100%;
-height: 2px;
-bottom: 0;
-left: 0;
-background-color: white;
-visibility: hidden;
-transform: scaleX(0);
-transition: all 0.3s ease-in-out 0s;
-}
-#menu a:hover:before {
-visibility: visible;
-transform: scaleX(.75);
-}
-
-/* Right-aligned section inside the top navigation */
-#menu_right {
-margin-right: 9.40%;
-float: right;
-}
-
-#menu_left {
-color: white;
-text-align: center;
-padding-top: 14px;
-padding-left: 30px;
-padding-right: 30px;
-padding-bottom: 4px;
-text-decoration: none;
-font-size: 18px;
-margin-left: 8.5%;
-float:left;
-font-weight: 900;
-}
-
-.center {
-display: block;
-margin-left: auto;
-margin-right: auto;
-width: 80%;
-}
-
-body{
-    /*background color here black is a palceholder for hte time being*/
-    background-color:#041A1C;
-}
-
-h1 {
-    color: #69CCE0;
-}
-h4{
-font-size: 16px;
-color: white;
-}
-
-h2 {
-    color: white;
-    font-size: 70px;
-    margin: 0px;
-    text-align: center;
-}
-
-h3{
-font-size: 25px;
-color: white;
-text-decoration: underline;
-}
-
-
-ul li {
-    list-style: none;
-    display: inline-block;
-}
-
-ul li a{
-    text-decoration: none;
-    color: black;
-}
-
-#donate {
-float:left;
-}
-
-#sponsors {
-float:right;
-}
-
-
-.box-container {
-display: flex;
-justify-content: space-evenly;
-}
-
-.box-container2 {
-display: flex;
-justify-content: center;
-}
-
-.box-container3 {
-margin-left: 300px;
-margin-right: 300px;
-display: flex;
-justify-content: space-evenly;
-}
-
-
-
-.curvedbox {
-border-radius: 25px;
-border: 10px solid #68ADB0;
-padding: 20px;
-height: 275px;
-width: 700px;
-text-align: center;
-}
-
-.clearbox {
-border-radius: 25px;
-border: 15px ;
-padding: 20px;
-height: 300px;
-width: 600px;
-text-align: center;
-}
-
-
-
-
-/* link hover */
-
-b {
-position: relative;
-color: white;
-text-decoration: none;
-}
-
-b:hover {
-color:white;
-}
-
-b:before {
-content: "";
-position: absolute;
-width: 100%;
-height: 2px;
-bottom: 0;
-left: 0;
-background-color: #000;
-visibility: hidden;
-transform: scaleX(0);
-transition: all 0.3s ease-in-out 0s;
-}
-
-
-
-.clearbox2 {
-border-radius: 25px;
-border: 10px;
-background-color: #68ADB0;
-padding: 20px;
-height: 300px;
-width: 200px;
-text-align: center;
-}
-
-figure { 
-
-display: inline-block;
-text-align: center;
-padding-right: 40px;
-padding-left: 40px;
-padding-top: 1%;
-
-}
-</style>

@@ -1,0 +1,289 @@
+
+* {
+margin: 0;
+padding: 0;
+font-family: 'Open Sans', sans-serif;
+color: white;
+}
+
+/* Add a black background color to the top navigation */
+#menu {
+    background-color: #68ADB0;
+    overflow: hidden;
+    padding-bottom: 7px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+
+/* Style the links inside the navigation bar */
+#menu_right a {
+position: relative;
+
+float: left;
+color: white;
+text-align: center;
+padding-top: 14px;
+padding-left: 30px;
+padding-right: 30px;
+padding-bottom: 4px;
+text-decoration: none;
+font-size: 18px;
+}
+
+html {
+scroll-behavior: smooth;
+}
+
+/* Animation for the underline */
+#menu_right a:before {
+content: "";
+position: absolute;
+width: 100%;
+height: 2px;
+bottom: 0;
+left: 0;
+background-color: white;
+visibility: hidden;
+transform: scaleX(0);
+transition: all 0.3s ease-in-out 0s;
+}
+#menu a:hover:before {
+visibility: visible;
+transform: scaleX(.75);
+}
+
+/* Right-aligned section inside the top navigation */
+#menu_right {
+margin-right: 9.40%;
+float: right;
+}
+
+#menu_left {
+color: white;
+text-align: center;
+padding-top: 14px;
+padding-left: 30px;
+padding-right: 30px;
+padding-bottom: 4px;
+text-decoration: none;
+font-size: 18px;
+margin-left: 8.5%;
+float:left;
+font-weight: 900;
+}
+
+.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 80%;
+}
+
+body{
+    /*background color here black is a placeholder for the time being*/
+    background-color:#041A1C;
+}
+
+h1 {
+    color: #69CCE0;
+}
+h4{
+font-size: 16px;
+color: white;
+}
+
+h2 {
+    color: white;
+    font-size: 70px;
+    margin: 0px;
+    text-align: center;
+}
+
+h3{
+font-size: 25px;
+color: white;
+text-decoration: underline;
+}
+
+
+ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+#donate {
+float:left;
+}
+
+#sponsors {
+float:right;
+}
+
+
+.box-container {
+display: flex;
+justify-content: space-evenly;
+}
+
+.box-container2 {
+display: flex;
+justify-content: center;
+}
+
+.box-container3 {
+margin-left: 300px;
+margin-right: 300px;
+display: flex;
+justify-content: space-evenly;
+}
+
+
+
+.curvedbox {
+border-radius: 25px;
+border: 10px solid #68ADB0;
+padding: 20px;
+height: 275px;
+width: 700px;
+text-align: center;
+}
+
+.clearbox {
+border-radius: 25px;
+border: 15px ;
+padding: 20px;
+height: 300px;
+width: 600px;
+text-align: center;
+}
+
+
+
+
+/* link hover */
+
+b {
+position: relative;
+color: white;
+text-decoration: none;
+}
+
+b:hover {
+color:white;
+}
+
+b:before {
+content: "";
+position: absolute;
+width: 100%;
+height: 2px;
+bottom: 0;
+left: 0;
+background-color: #000;
+visibility: hidden;
+transform: scaleX(0);
+transition: all 0.3s ease-in-out 0s;
+}
+
+
+
+.clearbox2 {
+border-radius: 25px;
+border: 10px;
+background-color: #68ADB0;
+padding: 20px;
+height: 300px;
+width: 200px;
+text-align: center;
+}
+
+figure { 
+
+display: inline-block;
+text-align: center;
+padding-right: 40px;
+padding-left: 40px;
+padding-top: 1%;
+
+}
+
+@font-face {
+    font-family: botsmatic;
+    src: url('./fonts/Botsmatic3d-Exl8.ttf');
+}
+
+@font-face {
+    font-family: parikesit;
+    src: url('./fonts/Parikesit-0ZYR.ttf');
+}
+
+@font-face {
+    font-family: neoncity;
+    src: url('./fonts/NeoncityDisplay-MVVLv.otf');
+}
+
+@font-face {
+    font-family: maldini;
+    src: url('./fonts/MaldiniNormal-x37xm.otf');
+}
+
+
+.line {
+      position: relative;
+      top: 50%;
+      width: 8em;
+      margin: 0 auto;
+      border-right: 2px solid rgba(255, 255, 255, 0.75);
+      font-size: 180%;
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+      transform: translateY(-50%);
+}
+
+/*Animation*/
+
+.anim-typewriter1 {
+      animation: typewriter1 2s steps(15) 1s 1 normal both,
+      blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+.anim-typewriter2 {
+    animation: typewriter2 4s steps(50) 1s 1 normal both,
+    blinkTextCursor 500ms steps(40) infinite normal;
+}
+
+@keyframes typewriter1 {
+      from {
+            width: 0;
+      }
+      to {
+            width: 7em;
+      }
+}
+
+@keyframes typewriter2 {
+    from {
+          width: 0;
+    }
+    to {
+          width: 34em;
+    }
+}
+
+@keyframes blinkTextCursor {
+      from {
+            border-right-color: rgba(255, 180, 41, 0.75);
+      }
+      to {
+            border-right-color: transparent;
+      }
+}
