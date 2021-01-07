@@ -42,17 +42,18 @@
             <p>&nbsp;</p>
             <p>&nbsp;</p>
             <p>&nbsp;</p>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
 
             <section id= "home">
-
+                
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                <p>&nbsp;</p>
+                
                 <h1 class="line anim-typewriter1"> Welcome to</h1>
-                <h1 id = "hide" class="ml6"style="font-size: 55px; width: 50%; margin-left: 20%; visibility:hidden;"> 
+                <h1 id="hide" class="ml6"style="font-size: 55px; width: 50%; margin-left: 20%; visibility:hidden;"> 
                     <span class="text-wrapper">
                         <span class="letters" style="font-family: botsmatic;">change thru games</span>
                     </span>
@@ -79,28 +80,28 @@
                 <p>&nbsp;</p>
                 <p>&nbsp;</p>
 
-
-                <div class="box-container3">
-                    <div id="pic2" class="clearbox2">
-                        <p>&nbsp;</p>
-                        <a target="_blank"><img src="https://i.imgur.com/f7Fifz9.png" style="width: 100px; height: 100px"></a>
-                        <h4> Change Thru Games offers will host gaming tournaments for players to participate in this year with games such as League of Legends, Tetris, and more! </h4>
-                    </div>
-
-                    <div id="ctg" class="clearbox2">
-                        <a target="_blank"><img src="https://i.imgur.com/S5EKse4.png" style="width: 100px; height: 100px"></a>
-                        <p>&nbsp;</p>
-                        <h4>Alongside video games at Change Thru Games, players will also have the oppurtunity to be apart of board game tournaments such as Codenames, Mafia, and Egyptian War! </h4>
-                    </div>
-
-                    <div id="pic3" class="clearbox2">
-                        <p>&nbsp;</p>
-                        <a target="_blank" href="https://docs.google.com/document/d/1lNxOQcTnk0gU1SqVscKfuImfx8v9QJwCMwj7ji_QD_U/edit?usp=sharing"><img src="https://i.imgur.com/3ebGk9v.png" alt="Here is a link to our panphlet!" style="width: 100px; height: 100px"></a>
-                        <h4>Every year all of the proceeds earned at Change Thru Games will be donated to a charity! To read more about it, click on the image above to read our sponsorship panphlet! </h4>
-                    </div>
-
-                </div>
             </section>
+
+            <div class="box-container3">
+                <div id="pic2" class="clearbox2">
+                    <p>&nbsp;</p>
+                    <a target="_blank"><img src="https://i.imgur.com/f7Fifz9.png" style="width: 100px; height: 100px"></a>
+                    <h4> Change Thru Games offers will host gaming tournaments for players to participate in this year with games such as League of Legends, Tetris, and more! </h4>
+                </div>
+
+                <div id="ctg" class="clearbox2">
+                    <a target="_blank"><img src="https://i.imgur.com/S5EKse4.png" style="width: 100px; height: 100px"></a>
+                    <p>&nbsp;</p>
+                    <h4>Alongside video games at Change Thru Games, players will also have the oppurtunity to be apart of board game tournaments such as Codenames, Mafia, and Egyptian War! </h4>
+                </div>
+
+                <div id="pic3" class="clearbox2">
+                    <p>&nbsp;</p>
+                    <a target="_blank" href="https://docs.google.com/document/d/1lNxOQcTnk0gU1SqVscKfuImfx8v9QJwCMwj7ji_QD_U/edit?usp=sharing"><img src="https://i.imgur.com/3ebGk9v.png" alt="Here is a link to our panphlet!" style="width: 100px; height: 100px"></a>
+                    <h4>Every year all of the proceeds earned at Change Thru Games will be donated to a charity! To read more about it, click on the image above to read our sponsorship panphlet! </h4>
+                </div>
+
+            </div>
 
             <p>&nbsp;</p>
             <p>&nbsp;</p>
