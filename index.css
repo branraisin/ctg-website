@@ -2,8 +2,11 @@
 * {
 margin: 0;
 padding: 0;
-font-family: trulymadly;
 color: white;
+}
+
+body {
+    font-family: trulymadly;
 }
 
 /* Add a black background color to the top navigation */
@@ -215,17 +218,6 @@ padding-top: 1%;
 
 }
 
-.watch-button-old {
-    font-size: 24px; 
-    width: 10%; 
-    margin-left:20%; 
-    margin-right:auto; 
-    background-color:#041A1C; 
-    color:#69CCE0; 
-    border-color: #69CCE0;
-    border-radius: 30%;
-}
-
 .watch-button {
     font-size: 24px;
     width: 10%;
@@ -274,6 +266,25 @@ box-shadow: 0 0 10px 0 #3C747C inset, 0 0 10px 4px #3C747C;
     src: url('./fonts/TrulyMadlyDpad-a72o.ttf');
 }
 
+.ml6 {
+    position: relative;
+    font-family: botsmatic;
+}
+
+.ml6 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+}
+
+.ml6 .letter {
+    display: inline-block;
+    line-height: 0em;
+}
+
 
 .line {
     font-family: trulymadly;
@@ -290,23 +301,23 @@ box-shadow: 0 0 10px 0 #3C747C inset, 0 0 10px 4px #3C747C;
     transform: translateY(-50%);
 }
 
-/*Animation*/
+/* Typewriter-effect Animation*/
 
 .anim-typewriter1 {
-    animation: typewriter1 1s steps(15) 1s 1 normal both,
+    animation: typewriter1 0.5s steps(15) 1s 1 normal both,
     blinkTextCursor 500ms steps(40) infinite normal;
 }
 
 .anim-typewriter2 {
     animation: typewriter2 2s steps(50) 1s 1 normal both,
     blinkTextCursor 500ms steps(40) infinite normal;
-    animation-delay: 2s;
+    animation-delay: 3s;
 }
 
 .anim-typewriter3 {
-    animation: typewriter3 1.5s steps(50) 1s 1 normal both,
+    animation: typewriter3 1.5s steps(30) 1s 1 normal both,
     blinkTextCursor 500ms steps(40) infinite normal;
-    animation-delay: 4s;
+    animation-delay: 5s;
 }
 
 @keyframes typewriter1 {

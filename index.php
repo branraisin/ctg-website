@@ -15,6 +15,7 @@
 <html>
     <head>
         <title>CTG v6: DLC Edition</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
         <link rel="shortcut icon" type="image/png" href="https://i.imgur.com/Z34ZWtw.png">
         <link href="index.css" rel="stylesheet">
@@ -51,14 +52,21 @@
             <section id= "home">
 
                 <h1 class="line anim-typewriter1"> Welcome to</h1>
-                <h1 style="font-size: 55px; width: 50%; margin-left: 20%; font-family: botsmatic;"> change thru games</h1>
+                <h1 id = "hide" class="ml6"style="font-size: 55px; width: 50%; margin-left: 20%; visibility:hidden;"> 
+                    <span class="text-wrapper">
+                        <span class="letters" style="font-family: botsmatic;">change thru games</span>
+                    </span>
+                </h1>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+                <script src="title_anim.js"></script>
+
                 <h1 class="line anim-typewriter2"style="font-size: 160%; margin-top: 3%;"> An 8-hour video game marathon brought to</h1>
                 <h1 class="line anim-typewriter3"style="font-size: 160%; margin-top: 0%"> you by UCI Circle K!</h1>
 
                 <p>&nbsp;</p>
                 <p>&nbsp;</p>
     
-                <button class="watch-button" type="button">Watch</button>
+                <button class="watch-button" type="button" style="font-family: trulymadly;">Watch</button>
 
                 <p>&nbsp;</p>
                 <p>&nbsp;</p>
