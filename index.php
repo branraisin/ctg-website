@@ -52,8 +52,8 @@
                 <p>&nbsp;</p>
                 <p>&nbsp;</p>
                 
-                <h1 class="line anim-typewriter1" style="font-size: 160%; margin-right: auto; margin-left: auto"> Welcome to</h1>
-                <h1 id="hide" class="ml6"style="font-size: 90px; width: 50%; margin-left: auto; margin-right: auto ; visibility:hidden;"> 
+                <h1 class="line anim-typewriter1" style="margin-bottom: 0%;"> Welcome to</h1>
+                <h1 id="hide" class="ml6"style="font-size: 90px; width: 50%; margin-left: 20%; visibility:hidden;"> 
                     <span class="text-wrapper">
                         <span class="letters" style="font-family: alien;">Change Thru Games</span>
                     </span>
@@ -61,13 +61,13 @@
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
                 <script src="title_anim.js"></script>
 
-                <h1 class="line anim-typewriter2"style="font-size: 160%; margin-right: auto; margin-left: auto"> An 8-hour video game marathon brought to</h1>
-                <h1 class="line anim-typewriter3"style="font-size: 160%; margin-right: auto; margin-left: auto"> you by UCI Circle K!</h1>
+                <h1 class="line anim-typewriter2"style="font-size: 160%;"> An 8-hour video game marathon brought to</h1>
+                <h1 class="line anim-typewriter3"style="font-size: 160%; margin-top: 0%"> you by UCI Circle K!</h1>
 
                 <p>&nbsp;</p>
                 <p>&nbsp;</p>
     
-                <center><button class="watch-button" type="button" style="font-family: trulymadly;">Watch</button></center>
+                <button class="watch-button" type="button" style="font-family: trulymadly;">Watch</button>
 
                 <p>&nbsp;</p>
                 <p>&nbsp;</p>
@@ -196,7 +196,7 @@
 
                 <center>
                 <span style="font-family: 'Open Sans', sans-serif; color: white;">
-                    <p>&nbsp;</p>(c) 2020 University of California, Irvine - Circle K - All Rights Reserved.
+                    <p>&nbsp;</p>(c) 2020-2021 University of California, Irvine - Circle K - All Rights Reserved.
                     <br>You may not distribute, copy, nor sell this content without explicit permission from its owner.<br>
                 </span>
                     <div id="emblems" style="float:right; position: relative; top:-50px;">
