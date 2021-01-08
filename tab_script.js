@@ -1,10 +1,22 @@
-$(document).ready(function() {
-    $("div.bhoechie-tab-menu>div.list-group>a").click(function(e) {
-        e.preventDefault();
-        $(this).siblings('a.active').removeClass("active");
-        $(this).addClass("active");
-        var index = $(this).index();
-        $("div.bhoechie-tab>div.bhoechie-tab-content").removeClass("active");
-        $("div.bhoechie-tab>div.bhoechie-tab-content").eq(index).addClass("active");
-    });
-}); 
+function _class(name){
+    return document.getElementsByClassName(name);
+  }
+  
+let tabPanes = _class("tab-header")[0].getElementsByTagName("div");
+
+console.log(_class("tab-header")[0]);
+console.log(tabPanes.length);
+
+for(let i=0;i<tabPanes.length;i++){
+  tabPanes[i].addEventListener("click",function(){
+    _class("tab-header")[0].getElementsByClassName("active")[0].classList.remove("active");
+    tabPanes[i].classList.add("active");
+    
+    _class("tab-indicator")[0].style.top = `calc(80px + ${i*50}px)`;
+    
+    _class("tab-content")[0].getElementsByClassName("active")[0].classList.remove("active");
+    _class("tab-content")[0].getElementsByTagName("div")[i].classList.add("active");
+    
+  });
+}
+  
