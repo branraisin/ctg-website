@@ -224,23 +224,16 @@ text-align: center;
 }
 
 figure { 
-
 display: inline-block;
 text-align: center;
-padding-right: 40px;
-padding-left: 40px;
-padding-top: 1%;
-
 }
 
 .watch-button {
     font-size: 24px;
     width: 10%;
-    margin-left: 20%;
-    margin-right: auto;
     background-color: #041A1C;
     border-color: #3C747C;
-    border-radius: 30%;
+    border-radius: 5%;
     color: #69CCE0;
     box-shadow: 0 0 40px 40px #1A373B inset, 0 0 0 0 #3C747C;
     -webkit-transition: all 150ms ease-in-out;
@@ -259,9 +252,6 @@ box-shadow: 0 0 10px 0 #3C747C inset, 0 0 10px 4px #3C747C;
 .ml6 .text-wrapper {
     position: relative;
     display: inline-block;
-    padding-top: 0.2em;
-    padding-right: 0.05em;
-    padding-bottom: 0.1em;
     overflow: hidden;
 }
 
@@ -278,16 +268,17 @@ box-shadow: 0 0 10px 0 #3C747C inset, 0 0 10px 4px #3C747C;
 .line {
     font-family: trulymadly;
     position: relative;
-    top: 50%;
+    /*top: 50%;*/
     width: 8em;
-    margin-left: 20%;
     /* margin: 0 auto; */         /* Automatically centers text */
+    /* might get rid of the line here
     border-right: 2px solid #69CCE0;
+    */
     font-size: 250%;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
-    transform: translateY(-50%);
+    /*transform: translateY(-50%);*/
 }
 
 /* Typewriter-effect Animation*/
