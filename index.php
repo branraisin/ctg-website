@@ -54,7 +54,7 @@
                 </h1>
                   
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-                <script src="title_anim.js"></script>
+                <script src="title_script.js"></script>
                 <h1 class="line anim-typewriter2"style="font-size: 160%;"> An 8-hour video game marathon brought to</h1>
                 <h1 class="line anim-typewriter3"style="font-size: 160%;"> you by UCI Circle K!</h1>
                 <p>&nbsp;</p>
