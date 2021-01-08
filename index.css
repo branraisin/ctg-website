@@ -357,20 +357,20 @@ box-shadow: 0 0 10px 0 #3C747C inset, 0 0 10px 4px #3C747C;
 /* Typewriter-effect Animation*/
 
 .anim-typewriter1 {
-    animation: typewriter1 0.5s steps(10) 1s 1 normal both,
+    animation: typewriter1 1.5s steps(35) 1s 1 normal both,
     blinkTextCursor 500ms steps(40) infinite normal;
 }
 
 .anim-typewriter2 {
     animation: typewriter2 2s steps(40) 1s 1 normal both,
     blinkTextCursor 500ms steps(40) infinite normal;
-    animation-delay: 3s;
+    animation-delay: 3.5s;
 }
 
 .anim-typewriter3 {
     animation: typewriter3 1.5s steps(25) 1s 1 normal both,
     blinkTextCursor 500ms steps(40) infinite normal;
-    animation-delay: 5s;
+    animation-delay: 5.5s;
 }
 
 @keyframes typewriter1 {
@@ -378,7 +378,7 @@ box-shadow: 0 0 10px 0 #3C747C inset, 0 0 10px 4px #3C747C;
         width: 0;
     }
     to {
-        width: 4.75em;
+        width: 18em;
     }
 }
 
