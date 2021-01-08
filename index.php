@@ -43,11 +43,16 @@
                 <p>&nbsp;</p>
                 <center>
                 <h1 class="line anim-typewriter1" style="font-size: 160%;"> Welcome to the 7th iteration of</h1>
-                <h1 id="hide" class="ml6"style="font-size: 800%; visibility:hidden; margin-bottom: -2%;"> 
+                <h1 id="hide" class="ml5" style="font-size: 800%; visibility:hidden;">
                     <span class="text-wrapper">
-                        <span class="letters" style="font-family: alien; margin-top: -50%;">Change Thru Games</span>
+                        <span class="line0 line1"></span>
+                        <span class="letters letters-left">Change</span>
+                        <span class="letters letters-middle">Thru</span>
+                        <span class="letters letters-right">Games</span>
+                        <span class="line0 line2"></span>
                     </span>
                 </h1>
+                  
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
                 <script src="title_anim.js"></script>
                 <h1 class="line anim-typewriter2"style="font-size: 160%;"> An 8-hour video game marathon brought to</h1>
