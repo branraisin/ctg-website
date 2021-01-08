@@ -4,9 +4,6 @@ function _class(name){
   
 let tabPanes = _class("tab-header")[0].getElementsByTagName("div");
 
-console.log(_class("tab-header")[0]);
-console.log(tabPanes.length);
-
 for(let i=0;i<tabPanes.length;i++){
   tabPanes[i].addEventListener("click",function(){
     _class("tab-header")[0].getElementsByClassName("active")[0].classList.remove("active");

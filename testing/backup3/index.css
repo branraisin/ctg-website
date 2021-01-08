@@ -114,8 +114,8 @@ h4{
 
 h2 {
     color: white;
-    font-size: 70px;
-    margin: 0px;
+    font-size: 30px;
+    margin: 3%;
     text-align: center;
 }
 
@@ -173,6 +173,8 @@ ul li a {
     border-radius: 25px;
     border: 15px;
     padding: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
     height: 20%;
     width: 35%;
     text-align: center;
@@ -221,75 +223,84 @@ figure {
     text-align: center;
 }
 
-/*  bhoechie tab */
-div.bhoechie-tab-container{
-    z-index: 10;
-    background-color: #2F565E;
-    padding: 0 !important;
-    border-radius: 4px;
-    -moz-border-radius: 4px;
-    border:1px solid #ddd;
-    margin-top: 20px;
-    margin-left: 50px;
-    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
-    box-shadow: 0 6px 12px rgba(0,0,0,.175);
-    -moz-box-shadow: 0 6px 12px rgba(0,0,0,.175);
-    background-clip: padding-box;
-    opacity: 0.97;
-    filter: alpha(opacity=97);
-  }
-  div.bhoechie-tab-menu{
-    padding-right: 0;
-    padding-left: 0;
-    padding-bottom: 0;
-  }
-  div.bhoechie-tab-menu div.list-group{
-    margin-bottom: 0;
-  }
-  div.bhoechie-tab-menu div.list-group>a{
-    margin-bottom: 0;
-  }
-  div.bhoechie-tab-menu div.list-group>a .glyphicon,
-  div.bhoechie-tab-menu div.list-group>a .fa {
-    color: #5A55A3;
-  }
-  div.bhoechie-tab-menu div.list-group>a:first-child{
-    border-top-right-radius: 0;
-    -moz-border-top-right-radius: 0;
-  }
-  div.bhoechie-tab-menu div.list-group>a:last-child{
-    border-bottom-right-radius: 0;
-    -moz-border-bottom-right-radius: 0;
-  }
-  div.bhoechie-tab-menu div.list-group>a.active,
-  div.bhoechie-tab-menu div.list-group>a.active .glyphicon,
-  div.bhoechie-tab-menu div.list-group>a.active .fa{
-    background-color: #5A55A3;
-    background-image: #5A55A3;
-    color: #2F565E;
-  }
-  div.bhoechie-tab-menu div.list-group>a.active:after{
-    content: '';
-    position: absolute;
-    left: 100%;
-    top: 50%;
-    margin-top: -13px;
-    border-left: 0;
-    border-bottom: 13px solid transparent;
-    border-top: 13px solid transparent;
-    border-left: 10px solid #5A55A3;
-  }
-  
-  div.bhoechie-tab-content{
-    background-color: #2F565E;
-    /* border: 1px solid #eeeeee; */
-    padding-left: 20px;
-    padding-top: 10px;
-  }
-  
-  div.bhoechie-tab div.bhoechie-tab-content:not(.active){
-    display: none;
-  }
+.tabs {
+    box-sizing:border-box;
+    position:relative;
+    /* left:50%; */
+    margin-left: auto;
+    margin-right: auto;
+    /* transform:translate(-50%,-50%); */
+    width:680px;
+    height:360px;
+    /* padding:30px 20px; */
+    background:#3C7484;
+    box-shadow:5px 5px 10px 5px #69CCE0;
+    overflow:hidden;
+    margin-bottom: 5%;
+}
+.tabs .tab-header {
+    float:left;
+    width:180px;
+    height:100%;
+    border-right:1px solid #ccc;
+    padding:50px 0px;
+}
+.tabs .tab-header > div {
+    height:50px;
+    line-height:50px;
+    font-size:16px;
+    font-weight:600;
+    color:#FFF;
+    cursor:pointer;
+    padding-left:10px;
+}
+.tabs .tab-header > div:hover,
+.tabs .tab-header > div.active {
+    color:#69CCE0;
+}
+.tabs .tab-header div i {
+    display:inline-block;
+    margin-left:10px;
+    margin-right:5px;
+}
+.tabs .tab-content {
+    position:relative;
+    height:100%;
+    overflow:hidden;
+}
+.tabs .tab-content > div > i {
+    display:inline-block;
+    width:50px;
+    height:50px;
+    background:#555;
+    color:#f5f5f5;
+    font-size:25px;
+    font-weight:600;
+    text-align:center;
+    line-height:50px;
+    border-radius:50%;
+}
+.tabs .tab-content > div {
+    position:absolute;
+    text-align:center;
+    padding:40px 20px;
+    top:-200%;
+    transition:all 500ms ease-in-out;
+}
+.tabs .tab-content > div.active {
+    top:0px;
+}
+
+.tabs .tab-indicator {
+    position:absolute;
+    width:9px;
+    height:50px;
+    background:#69CCE0;
+    left:176px;
+    top:50px;
+    transition:all 500ms ease-in-out;
+    border-radius: 20px;
+}
 
 .watch-button {
     font-size: 24px;
@@ -346,20 +357,20 @@ box-shadow: 0 0 10px 0 #3C747C inset, 0 0 10px 4px #3C747C;
 /* Typewriter-effect Animation*/
 
 .anim-typewriter1 {
-    animation: typewriter1 0.5s steps(10) 1s 1 normal both,
+    animation: typewriter1 1.5s steps(35) 1s 1 normal both,
     blinkTextCursor 500ms steps(40) infinite normal;
 }
 
 .anim-typewriter2 {
     animation: typewriter2 2s steps(40) 1s 1 normal both,
     blinkTextCursor 500ms steps(40) infinite normal;
-    animation-delay: 3s;
+    animation-delay: 3.5s;
 }
 
 .anim-typewriter3 {
     animation: typewriter3 1.5s steps(25) 1s 1 normal both,
     blinkTextCursor 500ms steps(40) infinite normal;
-    animation-delay: 5s;
+    animation-delay: 5.5s;
 }
 
 @keyframes typewriter1 {
@@ -367,7 +378,7 @@ box-shadow: 0 0 10px 0 #3C747C inset, 0 0 10px 4px #3C747C;
         width: 0;
     }
     to {
-        width: 4.75em;
+        width: 18em;
     }
 }
 
