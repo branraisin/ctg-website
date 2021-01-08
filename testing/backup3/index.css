@@ -318,46 +318,25 @@ figure {
 box-shadow: 0 0 10px 0 #3C747C inset, 0 0 10px 4px #3C747C;
 }
 
-.ml5 {
+.ml6 {
+    margin-top: 0.2em;
     position: relative;
-    color: #FFF;
-    font-family: alien;
-    margin-top: 2%;
-    margin-bottom: 1%;
-  }
-  
-  .ml5 .text-wrapper {
+}
+
+.ml6 .text-wrapper {
     position: relative;
     display: inline-block;
-    padding-top: 0.1em;
-    padding-right: 0.05em;
-    padding-bottom: 0.15em;
-    line-height: 1em;
-  }
-  
-  .ml5 .line0 {
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    height: 3px;
-    width: 100%;
-    background-color: #3C7484;
-    transform-origin: 0.5 0;
-  }
-  
-  .ml5 .letters-middle {
-    font-weight: 400;
-    width: 1em;
-    margin-right: 0.8em;
-    margin-left: 0em;
-  }
-  
-  .ml5 .letters {
+    overflow: hidden;
+}
+
+.ml6 .letter {
     display: inline-block;
-    opacity: 0;
-  }
+    line-height: 0em;
+}
+
+.ml6 .letter:hover {
+    background-position: -120% 0;
+}
 
 
 .line {
@@ -385,13 +364,13 @@ box-shadow: 0 0 10px 0 #3C747C inset, 0 0 10px 4px #3C747C;
 .anim-typewriter2 {
     animation: typewriter2 2s steps(40) 1s 1 normal both,
     blinkTextCursor 500ms steps(40) infinite normal;
-    animation-delay: 4s;
+    animation-delay: 3.5s;
 }
 
 .anim-typewriter3 {
     animation: typewriter3 1.5s steps(25) 1s 1 normal both,
     blinkTextCursor 500ms steps(40) infinite normal;
-    animation-delay: 6s;
+    animation-delay: 5.5s;
 }
 
 @keyframes typewriter1 {

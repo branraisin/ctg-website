@@ -3,8 +3,8 @@ var textWrapper = document.querySelector('.ml6 .letters');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
 setTimeout(function() {
-  $('#hide').css('visibility', 'visible')
-}, 1600);
+  $('#hide').css('visibility', 'visible');
+}, 2400);
 
 setTimeout(function(){
   anime.timeline()
@@ -15,4 +15,4 @@ setTimeout(function(){
     duration: 750,
     delay: (el, i) => 50 * i
   });
-}, 1500)
+}, 2300)
