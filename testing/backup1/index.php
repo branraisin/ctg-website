@@ -13,31 +13,34 @@
 
 <!DOCTYPE html>
 <html>
+    <link rel="stylesheet" href="index.css">
     <head>
-        <title>Change Thru Games 7</title>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <title>CTG v6: DLC Edition</title>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
         <link rel="shortcut icon" type="image/png" href="https://i.imgur.com/Z34ZWtw.png">
-        <link href="index.css" rel="stylesheet">
         <meta charset="UTF-8">
     </head>
 
     <head> 
         <body>
-
             <div id="menu">
                 <div id="menu_left">
                 <a class="active" >INSERT LOGO HERE</a>
                 </div>
                 <div id="menu_right">
-                    <a href="#home">Home</a>
-                    <a href="#donate">Donate</a>
-                    <a href="#commitee">Committee</a>
-                    <a href="https://www.twitch.tv/changethrugames/">Watch</a>
+                    <a href="#home">01. Home</a>
+                    <a href="#donate">02. Donate</a>
+                    <a href="#commitee">03. Committee</a>
+                    <a href="https://www.twitch.tv/changethrugames/">04. Watch</a>
                 </div>
             </div>
 
-
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
             <p>&nbsp;</p>
             <p>&nbsp;</p>
             <p>&nbsp;</p>
@@ -45,29 +48,20 @@
 
             <section id= "home">
 
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                <p>&nbsp;</p>
-                
-                <h1 class="line anim-typewriter1" style="font-size: 160%; margin-right: auto; margin-left: auto"> Welcome to</h1>
-                <h1 id="hide" class="ml6"style="font-size: 90px; width: 50%; margin-left: auto; margin-right: auto ; visibility:hidden;"> 
-                    <span class="text-wrapper">
-                        <span class="letters" style="font-family: alien;">Change Thru Games</span>
-                    </span>
-                </h1>
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-                <script src="title_anim.js"></script>
+                <h1 style="font-size: 20px; width: 50%; margin-left:auto; 
+                margin-right:auto; text-align: center; font-family: alien;"> Welcome to</h1>
 
-                <h1 class="line anim-typewriter2"style="font-size: 160%; margin-right: auto; margin-left: auto"> An 8-hour video game marathon brought to</h1>
-                <h1 class="line anim-typewriter3"style="font-size: 160%; margin-right: auto; margin-left: auto"> you by UCI Circle K!</h1>
+                <h1 style="font-size: 80px; width: 50%; margin-left:auto; 
+                margin-right:auto; text-align: center; font-family: alien;"> Change Thru Games</h1>
+
+                <h1 style="font-size: 20px; width: 25%; margin-left:auto; 
+                margin-right:auto; text-align: center; color: white;"> An 8-hour video game marathon brought to you by UCI Circle K!</h1>
 
                 <p>&nbsp;</p>
-                <p>&nbsp;</p>
-    
-                <center><button class="watch-button" type="button" style="font-family: trulymadly;">Watch</button></center>
+
+                <center><button type="button" style="font-size: 20px; width: 10%; margin-left:auto; 
+                margin-right:auto; border-radius: 8px; border-width: 3px;
+                background-color:#041A1C; color:#69CCE0; border-color: #69CCE0;">Watch</button></center>
 
                 <p>&nbsp;</p>
                 <p>&nbsp;</p>
@@ -80,28 +74,28 @@
                 <p>&nbsp;</p>
                 <p>&nbsp;</p>
 
+
+                <div class="box-container3">
+                    <div id="pic2" class="clearbox2">
+                        <p>&nbsp;</p>
+                        <a target="_blank"><img src="https://i.imgur.com/f7Fifz9.png" style="width: 100px; height: 100px"></a>
+                        <h4> Change Thru Games offers will host gaming tournaments for players to participate in this year with games such as League of Legends, Tetris, and more! </h4>
+                    </div>
+
+                    <div id="ctg" class="clearbox2">
+                        <a target="_blank"><img src="https://i.imgur.com/S5EKse4.png" style="width: 100px; height: 100px"></a>
+                        <p>&nbsp;</p>
+                        <h4>Alongside video games at Change Thru Games, players will also have the oppurtunity to be apart of board game tournaments such as Codenames, Mafia, and Egyptian War! </h4>
+                    </div>
+
+                    <div id="pic3" class="clearbox2">
+                        <p>&nbsp;</p>
+                        <a target="_blank" href="https://docs.google.com/document/d/1lNxOQcTnk0gU1SqVscKfuImfx8v9QJwCMwj7ji_QD_U/edit?usp=sharing"><img src="https://i.imgur.com/3ebGk9v.png" alt="Here is a link to our panphlet!" style="width: 100px; height: 100px"></a>
+                        <h4>Every year all of the proceeds earned at Change Thru Games will be donated to a charity! To read more about it, click on the image above to read our sponsorship panphlet! </h4>
+                    </div>
+
+                </div>
             </section>
-
-            <div class="box-container3">
-                <div id="pic2" class="clearbox2">
-                    <p>&nbsp;</p>
-                    <a target="_blank"><img src="https://i.imgur.com/f7Fifz9.png" style="width: 100px; height: 100px"></a>
-                    <h4> Change Thru Games offers will host gaming tournaments for players to participate in this year with games such as League of Legends, Tetris, and more! </h4>
-                </div>
-
-                <div id="ctg" class="clearbox2">
-                    <a target="_blank"><img src="https://i.imgur.com/S5EKse4.png" style="width: 100px; height: 100px"></a>
-                    <p>&nbsp;</p>
-                    <h4>Alongside video games at Change Thru Games, players will also have the oppurtunity to be apart of board game tournaments such as Codenames, Mafia, and Egyptian War! </h4>
-                </div>
-
-                <div id="pic3" class="clearbox2">
-                    <p>&nbsp;</p>
-                    <a target="_blank" href="https://docs.google.com/document/d/1lNxOQcTnk0gU1SqVscKfuImfx8v9QJwCMwj7ji_QD_U/edit?usp=sharing"><img src="https://i.imgur.com/3ebGk9v.png" alt="Here is a link to our panphlet!" style="width: 100px; height: 100px"></a>
-                    <h4>Every year all of the proceeds earned at Change Thru Games will be donated to a charity! To read more about it, click on the image above to read our sponsorship panphlet! </h4>
-                </div>
-
-            </div>
 
             <p>&nbsp;</p>
             <p>&nbsp;</p>
