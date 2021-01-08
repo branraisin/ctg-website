@@ -26,7 +26,7 @@ body {
 
 /* Add a black background color to the top navigation */
 #menu {
-    background-color: #68ADB0;
+    background-color: #3C747C;
     overflow: hidden;
     padding-bottom: 7px;
     position: fixed;
@@ -167,7 +167,7 @@ justify-content: space-evenly;
 
 .curvedbox {
 border-radius: 25px;
-border: 10px solid #68ADB0;
+border: 10px solid #3C747C;
 padding: 20px;
 height: 275px;
 width: 700px;
@@ -216,7 +216,7 @@ transition: all 0.3s ease-in-out 0s;
 .clearbox2 {
 border-radius: 25px;
 border: 10px;
-background-color: #68ADB0;
+background-color: #3C747C;
 padding: 20px;
 height: 300px;
 width: 200px;
@@ -268,7 +268,6 @@ box-shadow: 0 0 10px 0 #3C747C inset, 0 0 10px 4px #3C747C;
 .line {
     font-family: trulymadly;
     position: relative;
-    /*top: 50%;*/
     width: 8em;
     /* margin: 0 auto; */         /* Automatically centers text */
     /* might get rid of the line here
