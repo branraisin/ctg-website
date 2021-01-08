@@ -173,6 +173,8 @@ ul li a {
     border-radius: 25px;
     border: 15px;
     padding: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
     height: 20%;
     width: 35%;
     text-align: center;
@@ -222,80 +224,82 @@ figure {
 }
 
 .tabs {
-  box-sizing:border-box;
-  position:relative;
-  left:50%;
-  transform:translate(-50%,-50%);
-  width:680px;
-  height:360px;
-  padding:30px 20px;
-  background:#3C7484;
-  box-shadow:5px 5px 10px 5px #69CCE0;
-  overflow:hidden;
-  margin-top: 15%;
+    box-sizing:border-box;
+    position:relative;
+    /* left:50%; */
+    margin-left: auto;
+    margin-right: auto;
+    /* transform:translate(-50%,-50%); */
+    width:680px;
+    height:360px;
+    /* padding:30px 20px; */
+    background:#3C7484;
+    box-shadow:5px 5px 10px 5px #69CCE0;
+    overflow:hidden;
+    margin-bottom: 5%;
 }
 .tabs .tab-header {
-  float:left;
-  width:180px;
-  height:100%;
-  border-right:1px solid #ccc;
-  padding:50px 0px;
+    float:left;
+    width:180px;
+    height:100%;
+    border-right:1px solid #ccc;
+    padding:50px 0px;
 }
 .tabs .tab-header > div {
-  height:50px;
-  line-height:50px;
-  font-size:16px;
-  font-weight:600;
-  color:#FFF;
-  cursor:pointer;
-  padding-left:10px;
+    height:50px;
+    line-height:50px;
+    font-size:16px;
+    font-weight:600;
+    color:#FFF;
+    cursor:pointer;
+    padding-left:10px;
 }
 .tabs .tab-header > div:hover,
 .tabs .tab-header > div.active {
-  color:#69CCE0;
+    color:#69CCE0;
 }
 .tabs .tab-header div i {
-  display:inline-block;
-  margin-left:10px;
-  margin-right:5px;
+    display:inline-block;
+    margin-left:10px;
+    margin-right:5px;
 }
 .tabs .tab-content {
-  position:relative;
-  height:100%;
-  overflow:hidden;
+    position:relative;
+    height:100%;
+    overflow:hidden;
 }
 .tabs .tab-content > div > i {
-  display:inline-block;
-  width:50px;
-  height:50px;
-  background:#555;
-  color:#f5f5f5;
-  font-size:25px;
-  font-weight:600;
-  text-align:center;
-  line-height:50px;
-  border-radius:50%;
+    display:inline-block;
+    width:50px;
+    height:50px;
+    background:#555;
+    color:#f5f5f5;
+    font-size:25px;
+    font-weight:600;
+    text-align:center;
+    line-height:50px;
+    border-radius:50%;
 }
 .tabs .tab-content > div {
-  position:absolute;
-  text-align:center;
-  padding:40px 20px;
-  top:-200%;
-  transition:all 500ms ease-in-out;
+    position:absolute;
+    text-align:center;
+    padding:40px 20px;
+    top:-200%;
+    transition:all 500ms ease-in-out;
 }
 .tabs .tab-content > div.active {
-  top:0px;
+    top:0px;
 }
 
 .tabs .tab-indicator {
-  position:absolute;
-  width:8px;
-  height:50px;
-  background:#69CCE0;
-  left:196px;
-  top:80px;
-  transition:all 500ms ease-in-out;
-  border-radius: 30%;
+    position:absolute;
+    width:9px;
+    height:50px;
+    background:#69CCE0;
+    left:176px;
+    top:50px;
+    transition:all 500ms ease-in-out;
+    border-radius: 20px;
 }
 
 .watch-button {
