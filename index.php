@@ -44,7 +44,7 @@
             <p>&nbsp;</p>
 
             <section id= "home">
-                
+
                 <p>&nbsp;</p>
                 <p>&nbsp;</p>
                 <p>&nbsp;</p>
@@ -52,16 +52,16 @@
                 <p>&nbsp;</p>
                 <p>&nbsp;</p>
                 
-                <h1 class="line anim-typewriter1"> Welcome to</h1>
-                <h1 id="hide" class="ml6"style="font-size: 55px; width: 50%; margin-left: 20%; visibility:hidden;"> 
+                <h1 class="line anim-typewriter1" style="margin-bottom: 0%;"> Welcome to</h1>
+                <h1 id="hide" class="ml6"style="font-size: 90px; width: 50%; margin-left: 20%; visibility:hidden;"> 
                     <span class="text-wrapper">
-                        <span class="letters" style="font-family: botsmatic;">change thru games</span>
+                        <span class="letters" style="font-family: alien;">change thru games</span>
                     </span>
                 </h1>
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
                 <script src="title_anim.js"></script>
 
-                <h1 class="line anim-typewriter2"style="font-size: 160%; margin-top: 3%;"> An 8-hour video game marathon brought to</h1>
+                <h1 class="line anim-typewriter2"style="font-size: 160%;"> An 8-hour video game marathon brought to</h1>
                 <h1 class="line anim-typewriter3"style="font-size: 160%; margin-top: 0%"> you by UCI Circle K!</h1>
 
                 <p>&nbsp;</p>
