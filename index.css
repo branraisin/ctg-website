@@ -226,6 +226,13 @@ figure {
     text-align: center;
 }
 
+.ctg-img {
+    border-radius: 50%;
+    border: 8px solid #1A373B;
+    height: 100px; 
+    width: 100px;
+}
+
 .tabs {
     box-sizing:border-box;
     position:relative;
