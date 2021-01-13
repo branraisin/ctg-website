@@ -170,17 +170,19 @@
             <section id="commitee">
                 <div class="tabs">
                     <div class="tab-header">
-                        <div class="active" style="font-size: 20px;">
+                        <div class="active" style="font-size: 18px;">
                             <i class="fa fa-code"></i> CTG Chairs
                         </div>
-                        <div style="font-size: 20px;">
-                            <i class="fa fa-pencil-square"></i> Admin Interns
+                        <div style="font-size: 18px;">
+                            <i class="fa fa-pencil-square"></i> Admin Team
                         </div>
                         <div style="font-size: 18px;">
-                            <i class="fa fa-bar-chart"></i> Competitive Interns
+                            <i class="fa fa-bar-chart"></i> Comp. Team
                         </div>
-                        <div style="font-size: 20px;">
-                            <i class="fa fa-envelope"></i> Creative Interns
+                        <div style="font-size: 18px;">
+                            <i class="fa fa-envelope"></i> Creative Team
+                        </div>
+                        <div style="font-size: 18px;"><i></i> Streaming Team
                         </div>
                         </div>
                         <div class="tab-indicator"></div>
@@ -189,18 +191,20 @@
                             <div class="ctg-tab active">
                                 <div style="margin-left: 0%; margin-bottom: 3%;">
                                     <img class="ctg-img" src="https://i.imgur.com/X8lSVbA.jpg" alt="James" style="width: 120px; height: 120px;"></img>
+
                                     <h2 style="margin-bottom: 0;">James Molamphy</h2>
                                     <h4>CTG Director</h4>
                                 </div>
                                 
                                 <div class="ctg-row">
-                                    <img class="ctg-img-left" src="./img/Andre.jpg" alt="Andre" style="margin-right: 20px;"></img>
+                                    <img class="ctg-img-left" src="https://i.imgur.com/cXePGIs.png?1" alt="Andre" style="margin-right: 20px;"></img>
                                     <div style="margin-top: 2%;">
                                         <h2>Andre Yee</h2>
                                         <h4 style="width: 10em;">Competitive Production Assistant</h4>
                                     </div>
     
-                                    <img class="ctg-img-right" src="https://i.imgur.com/VzxLjzJ.jpg" alt="Chaya" style="margin-right: 20px;"></img>
+
+                                    <img class="ctg-img-right" src="https://i.imgur.com/BwZztXl.jpg" alt="Chaya" style="margin-right: 20px;"></img>
                                     <div style="margin-top: 2%;">
                                         <h2>Chaya Pearl</h2>
                                         <h4 style="width: 10em;">Administrative Production Assistant</h4>
@@ -222,13 +226,13 @@
                                 </div>
     
                                 <div class="ctg-row">
-                                    <img class="ctg-img-left" src="./img/Kimhuy.jpg" alt="Kimhuy" style="margin-right: 20px;"></img>
+                                    <img class="ctg-img-left" src="https://i.imgur.com/ocHfiTe.png" alt="Kimhuy" style="margin-right: 20px;"></img>
                                     <div style="margin-top: 2%;">
                                         <h2>Kimhuy Ngo</h2>
                                         <h4 style="width: 10em;">Media Chair</h4>
                                     </div>
     
-                                    <img class="ctg-img-right" src="./img/Brian.jpg" alt="Brian" style="margin-right: 20px;"></img>
+                                    <img class="ctg-img-right" src="https://i.imgur.com/ASslEKq.jpg" alt="Brian" style="margin-right: 20px;"></img>
                                     <div style="margin-top: 2%;">
                                         <h2>Brian Nguyen</h2>
                                         <h4 style="width: 10em;">Sponsorship Chair</h4>
@@ -236,6 +240,7 @@
                                 </div>
     
                                 <div class="ctg-row">
+
                                     <img class="ctg-img-left" src="https://i.imgur.com/qZU0SgJ.jpg" alt="Brandon" style="margin-right: 20px;"></img>
                                     <div style="margin-top: 2%;">
                                         <h2>Brandon Kincaid</h2>
@@ -252,21 +257,37 @@
                             
                             <div class="ctg-tab">  
                                 <div class="ctg-row">
-                                    <img class="ctg-img-left" src="https://i.imgur.com/wn4TpRb.jpg" alt="Celina" style="margin-right: 20px;"></img>
+                                    <img class="ctg-img-left" src="https://i.imgur.com/BwZztXl.jpg" alt="Celina" style="margin-right: 20px;"></img>
                                     <div style="margin-top: 2%;">
-                                        <h2>Celina Tiqui</h2>
-                                        <h4 style="width: 10em;">Administrative Intern</h4>
+                                        <h2>Chaya Pearl</h2>
+                                        <h4 style="width: 10em;">Administrative Production Assistant</h4>
                                     </div>
     
-                                    <img class="ctg-img-right" src="https://i.imgur.com/QCzizds.jpg" alt="Izzabella" style="margin-right: 20px;"></img>
+                                    <img class="ctg-img-right" src="https://i.imgur.com/ASslEKq.jpg" alt="Izzabella" style="margin-right: 20px;"></img>
                                     <div style="margin-top: 2%;">
-                                        <h2>Izzabella Ramiscal</h2>
+                                        <h2>Brian Nguyen</h2>
+                                        <h4 style="width: 10em;">Sponsorship Chair</h4>
+                                    </div>
+                                </div>
+                                
+                                <div class="ctg-row">
+                                    <img class="ctg-img-left" src="https://i.imgur.com/LUxiWoK.jpg?1" alt="Mercy" style="margin-right: 20px;"></img>
+                                    <div style="margin-top: 2%;">
+                                        <h2 class="h2-name">Mercy Anne Cruz</h2>
+                                        <h4 style="width: 10em;">Fundraising Chair</h4>
+                                    </div>
+    
+                                    <img class="ctg-img-right" src="https://i.imgur.com/GU6iDjK.jpg?1" alt="Celina" style="margin-right: 20px;"></img>
+                                    <div style="margin-top: 2%;">
+                                        <h2>Celina Tiqui</h2>
                                         <h4 style="width: 10em;">Administrative Intern</h4>
                                     </div>
                                 </div>
     
                                 <div class="ctg-row">
+
                                     <img class="ctg-img-left" src="https://i.imgur.com/iZH5SIT.jpg" alt="Jon" style="margin-right: 20px;"></img>
+
                                     <div style="margin-top: 2%;">
                                         <h2>Jon Estrada</h2>
                                         <h4 style="width: 10em;">Administrative Intern</h4>
@@ -278,9 +299,26 @@
                                         <h4 style="width: 10em;">Administrative Intern</h4>
                                     </div>
                                 </div>
+
+                                <div class="ctg-row">
+                                    <img class="ctg-img-left" src="https://i.imgur.com/2DoEMQ8.jpg" alt="Izzabella" style="margin-right: 20px;"></img>
+                                    <div style="margin-top: 2%;">
+                                        <h2>Izzabella Ramiscal</h2>
+                                        <h4 style="width: 10em;">Administrative Intern</h4>
+                                    </div>
+                                </div>
+
+                                
                             </div>
                             
                             <div class="ctg-tab">
+
+                                <div style="margin-left: 0%; margin-bottom: 3%;">
+                                    <img class="ctg-img" src="https://i.imgur.com/cXePGIs.png?1" alt="James" style="width: 120px; height: 120px;"></img>
+                                    <h2 style="margin-bottom: 0;">Andre Yee</h2>
+                                    <h4>Competitive Production Assistant</h4>
+                                </div>
+
                                 <div class="ctg-row">
                                     <img class="ctg-img-left" src="./img/BrianL.jpg" alt="BrianL" style="margin-right: 20px;"></img>
                                     <div style="margin-top: 2%;">
@@ -302,7 +340,7 @@
                                         <h4 style="width: 10em;">Competitive Intern</h4>
                                     </div>
     
-                                    <img class="ctg-img-right" src="./img/William.jpg" alt="William" style="margin-right: 20px;"></img>
+                                    <img class="ctg-img-right" src="https://i.imgur.com/tYyQsUB.jpg" alt="William" style="margin-right: 20px;"></img>
                                     <div style="margin-top: 2%;">
                                         <h2>William Nguyen</h2>
                                         <h4 style="width: 10em;">Competitive Intern</h4>
@@ -310,17 +348,32 @@
                                 </div>
                             </div>
                             
+                            
                             <div class="ctg-tab">
                                 <div class="ctg-row">
-                                    <img class="ctg-img-left" src="./img/Andres.jpg" alt="Andres" style="margin-right: 20px;"></img>
+                                    <img class="ctg-img-left" src="./img/Audrey.jpg" alt="Audrey" style="margin-right: 20px;"></img>
                                     <div style="margin-top: 2%;">
-                                        <h2>Andres Cervantes</h2>
-                                        <h4 style="width: 10em;">Creative Intern</h4>
+                                        <h2>Audrey Shi</h2>
+                                        <h4 style="width: 10em;">Creative Production Assistant</h4>
+                                    </div>
+
+                                    <img class="ctg-img-right" src="https://i.imgur.com/ocHfiTe.png" alt="Kimhuy" style="margin-right: 20px;"></img>
+                                    <div style="margin-top: 2%;">
+                                        <h2>Kimhuy Ngo</h2>
+                                        <h4 style="width: 10em;">Media Chair</h4>
+                                    </div>
+                                </div>
+                                
+                                <div class="ctg-row">
+                                    <img class="ctg-img-left" src="https://i.imgur.com/d79Po0O.jpg?1" alt="Brandon" style="margin-right: 20px;"></img>
+                                    <div style="margin-top: 2%;">
+                                        <h2>Brandon Kincaid</h2>
+                                        <h4 style="width: 10em;">Marketing Chair</h4>
                                     </div>
     
-                                    <img class="ctg-img-right" src="./img/Cynthia.jpg" alt="Cynthia" style="margin-right: 20px;"></img>
+                                    <img class="ctg-img-right" src="./img/Andres.jpg" alt="Andres" style="margin-right: 20px;"></img>
                                     <div style="margin-top: 2%;">
-                                        <h2>Cynthia Yu</h2>
+                                        <h2>Andres Cervantes</h2>
                                         <h4 style="width: 10em;">Creative Intern</h4>
                                     </div>
                                 </div>
@@ -332,6 +385,7 @@
                                         <h4 style="width: 10em;">Creative Intern</h4>
                                     </div>
     
+
                                     <img class="ctg-img-right" src="https://i.imgur.com/n3ejbDv.jpg" alt="Ian" style="margin-right: 20px;"></img>
                                     <div style="margin-top: 2%;">
                                         <h2>Ian Baylon</h2>
@@ -340,14 +394,67 @@
                                 </div>  
                                 
                                 <div class="ctg-row">
+
                                     <img class="ctg-img-left" src="https://i.imgur.com/pOlr0EY.jpg" alt="Jay" style="margin-right: 20px;"></img>
                                     <div style="margin-top: 4%;">
                                         <h2>Jay Han</h2>
                                         <h4 style="width: 10em;">Creative Intern</h4>
                                     </div>
-                                </div>
 
+                                    <img class="ctg-img-right" src="./img/Cynthia.jpg" alt="Cynthia" style="margin-right: 20px;"></img>
+                                    <div style="margin-top: 2%;">
+                                        <h2>Cynthia Yu</h2>
+                                        <h4 style="width: 10em;">Creative Intern</h4>
+                                    </div>
+                                </div>
                             </div>
+
+                            <div class="ctg-tab">
+                                <div class="ctg-row">
+                                    <img class="ctg-img-left" src="https://i.imgur.com/gcLNByF.jpg" alt="Tin" style="margin-right: 20px;"></img>
+                                    <div style="margin-top: 2%;">
+                                        <h2>Tin Luu</h2>
+                                        <h4 style="width: 10em;">Stream Caster</h4>
+                                    </div>
+
+                                    <img class="ctg-img-right" src="https://i.imgur.com/bcfXtpF.jpg" alt="Arthur" style="margin-right: 20px;"></img>
+                                    <div style="margin-top: 2%;">
+                                        <h2>Arthur Tham</h2>
+                                        <h4 style="width: 10em;">Stream Caster</h4>
+                                    </div>
+                                </div>
+                                
+                                <div class="ctg-row">
+                                    <img class="ctg-img-left" src="./" alt="_" style="margin-right: 20px;"></img>
+                                    <div style="margin-top: 2%;">
+                                        <h2>[Name]</h2>
+                                        <h4 style="width: 10em;">Stream Caster</h4>
+                                    </div>
+    
+                                    <img class="ctg-img-right" src="./" alt="_" style="margin-right: 20px;"></img>
+                                    <div style="margin-top: 2%;">
+                                        <h2>[Name]</h2>
+                                        <h4 style="width: 10em;">Stream Caster</h4>
+                                    </div>
+                                </div>
+    
+                                <div class="ctg-row">
+                                    <img class="ctg-img-left" src="./" alt="_" style="margin-right: 20px;"></img>
+                                    <div style="margin-top: 2%;">
+                                        <h2>[Name]</h2>
+                                        <h4 style="width: 10em;">Stream Caster</h4>
+                                    </div>
+    
+
+                                    <img class="ctg-img-right" src="./" alt="_" style="margin-right: 20px;"></img>
+                                    <div style="margin-top: 2%;">
+                                        <h2>[Name]</h2>
+                                        <h4 style="width: 10em;">Stream Caster</h4>
+                                    </div>
+                                </div>  
+                            </div>
+
+                            
                         </div>
                     </div>
                 <script src=tab_script.js></script>
