@@ -220,7 +220,7 @@
     
                                     <img class="ctg-img-right" src="https://i.imgur.com/QdOP7c4.jpg" alt="Mercy" style="margin-right: 20px;"></img>
                                     <div style="margin-top: 2%;">
-                                        <h2 class="h2-name">Mercy Anne Cruz</h2>
+                                        <h2 class="h2-name">Mercy Phuthama</h2>
                                         <h4 style="width: 10em;">Fundraising Chair</h4>
                                     </div>
                                 </div>
