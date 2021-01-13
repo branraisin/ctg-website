@@ -40,7 +40,6 @@ body {
 /* Style the links inside the navigation bar */
 #menu_right a {
 position: relative;
-
 float: left;
 color: white;
 text-align: center;
@@ -88,10 +87,9 @@ float: right;
     padding-right: 30px;
     padding-bottom: 4px;
     text-decoration: none;
-    font-size: 18px;
     margin-left: 8.5%;
     float:left;
-    font-weight: 900;
+    font-size: 24px;
 }
 
 .center {
@@ -252,7 +250,7 @@ figure {
 .ctg-row {
     display: inline-flex;
     margin-top: 3%;
-    padding: 20%:
+    padding: 20%;
 }
 
 .h2-name {
@@ -263,15 +261,13 @@ figure {
 .tabs {
     box-sizing:border-box;
     position:relative;
-    /* left:50%; */
     margin-left: auto;
     margin-right: auto;
-    /* transform:translate(-50%,-50%); */
     width:1000px;
     height:900px;
-    /* padding:30px 20px; */
     background:#3C7484;
-    box-shadow:5px 5px 10px 5px #69CCE0;
+    box-shadow:5px 5px 10px 5px black;
+    border-radius: 20px;
     overflow:hidden;
     margin-bottom: 5%;
 }
