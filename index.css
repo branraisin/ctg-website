@@ -115,7 +115,7 @@ h4{
 
 h2 {
     color: white;
-    font-size: 30px;
+    font-size: 26px;
     margin: 3%;
     text-align: center;
 }
@@ -233,6 +233,33 @@ figure {
     width: 100px;
 }
 
+.ctg-img-left {
+    border-radius: 50%;
+    border: 8px solid #1A373B;
+    height: 100px; 
+    width: 100px;
+    margin-right: 20px;
+}
+
+.ctg-img-right {
+    border-radius: 50%;
+    border: 8px solid #1A373B;
+    height: 100px; 
+    width: 100px;
+    margin-left: 80px;
+}
+
+.ctg-row {
+    display: inline-flex;
+    margin-top: 3%;
+    padding: 20%:
+}
+
+.h2-name {
+    font-size: 25px;
+    width: 100%;
+}
+
 .tabs {
     box-sizing:border-box;
     position:relative;
@@ -241,7 +268,7 @@ figure {
     margin-right: auto;
     /* transform:translate(-50%,-50%); */
     width:1000px;
-    height:460px;
+    height:900px;
     /* padding:30px 20px; */
     background:#3C7484;
     box-shadow:5px 5px 10px 5px #69CCE0;
