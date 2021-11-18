@@ -10,6 +10,11 @@
 }
 
 @font-face {
+    font-family: playfair;
+    src: url('./fonts/Playfair.ttf');
+}
+
+@font-face {
     font-family: alien;
     src: url('./fonts/AlienLeague.ttf');
 }
@@ -22,7 +27,7 @@
 }
 
 body {
-    font-family: trulymadly;
+    font-family: playfair;
 }
 
 /* Add a black background color to the top navigation */
@@ -107,7 +112,7 @@ h1 {
     color: #E4EEE3;
 }
 h4{
-    font-size: 18px;
+    font-size: 16px;
     color: #E4EEE3;
 }
 
@@ -253,7 +258,7 @@ figure {
 }
 
 .h2-name {
-    font-size: 25px;
+    font-size: 24px;
     width: 100%;
 }
 
@@ -335,7 +340,7 @@ figure {
 }
 
 .watch-button {
-    font-size: 24px;
+    font-size: 20px;
     width: 10%;
     background-color: #70B76B;
     border-color: #3B5639;
@@ -393,7 +398,7 @@ box-shadow: 0 0 10px 0 #679664 inset, 0 0 10px 4px #3B5639;
 
 
 .line {
-    font-family: trulymadly;
+    font-family: playfair;
     position: relative;
     width: 8em;
     /* margin: 0 auto; */         /* Automatically centers text */
