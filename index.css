@@ -1,22 +1,6 @@
-
-@font-face {
-    font-family: botsmatic;
-    src: url('./fonts/Botsmatic3d-Exl8.ttf');
-}
-
-@font-face {
-    font-family: trulymadly;
-    src: url('./fonts/TrulyMadlyDpad-a72o.ttf');
-}
-
 @font-face {
     font-family: playfair;
     src: url('./fonts/Playfair.ttf');
-}
-
-@font-face {
-    font-family: alien;
-    src: url('./fonts/AlienLeague.ttf');
 }
 
 * {
@@ -257,19 +241,13 @@ figure {
 
 .ctg-test-img {
     border-radius: 5px;
-    height: 210px; 
-    width: 210px;
+    height: 250px; 
+    width: 250px;
 }
 
 .subcaption {
     display: block;
 }
-
-
-
-
-
-
 
 .h2-name {
     font-size: 24px;
