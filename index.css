@@ -1,17 +1,6 @@
-
 @font-face {
-    font-family: botsmatic;
-    src: url('./fonts/Botsmatic3d-Exl8.ttf');
-}
-
-@font-face {
-    font-family: trulymadly;
-    src: url('./fonts/TrulyMadlyDpad-a72o.ttf');
-}
-
-@font-face {
-    font-family: alien;
-    src: url('./fonts/AlienLeague.ttf');
+    font-family: playfair;
+    src: url('./fonts/Playfair.ttf');
 }
 
 * {
@@ -22,12 +11,12 @@
 }
 
 body {
-    font-family: trulymadly;
+    font-family: playfair;
 }
 
 /* Add a black background color to the top navigation */
 #menu {
-    background-color: #3C747C;
+    background-color: #679664;
     overflow: hidden;
     padding-bottom: 7px;
     position: fixed;
@@ -41,7 +30,7 @@ body {
 #menu_right a {
 position: relative;
 float: left;
-color: white;
+color: #E4EEE3;
 text-align: center;
 padding-top: 14px;
 padding-left: 30px;
@@ -63,7 +52,7 @@ width: 100%;
 height: 2px;
 bottom: 0;
 left: 0;
-background-color: white;
+background-color: #E4EEE3;
 visibility: hidden;
 transform: scaleX(0);
 transition: all 0.3s ease-in-out 0s;
@@ -80,7 +69,7 @@ float: right;
 }
 
 #menu_left {
-    color: white;
+    color: #E4EEE3;
     text-align: center;
     padding-top: 14px;
     padding-left: 30px;
@@ -100,30 +89,37 @@ float: right;
 }
 
 body{
-    background-color:#041A1C;
+    background-color:#080C0C;
 }
 
 h1 {
-    color: #3C747C;
-}
-h4{
-    font-size: 18px;
-    color: white;
+    color: #E4EEE3;
 }
 
+
 h2 {
-    color: white;
-    font-size: 26px;
+    color: #E4EEE3;
+    font-size: 24px;
     margin: 3%;
     text-align: center;
 }
 
 h3{
     font-size: 25px;
-    color: white;
+    color: #E4EEE3;
     text-decoration: underline;
 }
 
+h4{
+    font-size: 16px;
+    color: #E4EEE3;
+}
+
+h5{
+    font-size: 14px;
+    margin-top: -4%;
+    color: #E4EEE3;
+}
 
 ul li {
     list-style: none;
@@ -211,12 +207,12 @@ b:before {
 .clearbox2 {
     border-radius: 25px;
     border: 10px;
-    background-color: #3C747C;
+    background-color: #679664;
     padding: 20px;
     height: 300px;
     width: 200px;
     text-align: center;
-    box-shadow: 0 0 0px 5px #1A373B inset, 0 0 0 0 #3C747C;
+    box-shadow: 0 0 0px 5px #3B5639 inset, 0 0 0 0 #080C08;
 }
 
 figure { 
@@ -224,37 +220,37 @@ figure {
     text-align: center;
 }
 
-.ctg-img {
-    border-radius: 50%;
-    border: 8px solid #1A373B;
-    height: 100px; 
-    width: 100px;
-}
-
-.ctg-img-left {
-    border-radius: 50%;
-    border: 8px solid #1A373B;
-    height: 100px; 
-    width: 100px;
-    margin-right: 20px;
-}
-
-.ctg-img-right {
-    border-radius: 50%;
-    border: 8px solid #1A373B;
-    height: 100px; 
-    width: 100px;
-    margin-left: 80px;
-}
 
 .ctg-row {
     display: inline-flex;
     margin-top: 3%;
 }
 
+
+.ctg-test-row {
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.ctg-pos {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+}
+
+.ctg-test-img {
+    border-radius: 5px;
+    height: 250px; 
+    width: 250px;
+}
+
+.subcaption {
+    display: block;
+}
+
 .h2-name {
-    font-size: 25px;
-    width: 100%;
+    font-size: 24px;
 }
 
 .tabs {
@@ -263,7 +259,7 @@ figure {
     margin-left: auto;
     margin-right: auto;
     width:1000px;
-    height:900px;
+    height:1000px;
     background:#3C7484;
     box-shadow:5px 5px 10px 5px black;
     border-radius: 20px;
@@ -335,25 +331,25 @@ figure {
 }
 
 .watch-button {
-    font-size: 24px;
+    font-size: 20px;
     width: 10%;
-    background-color: #041A1C;
-    border-color: #3C747C;
+    background-color: #70B76B;
+    border-color: #3B5639;
     border-radius: 25px;
     color: white;
-    box-shadow: 0 0 40px 40px #1A373B inset, 0 0 0 0 #3C747C;
+    box-shadow: 0 0 40px 40px #679664 inset, 0 0 0 0 #3B5639;
     -webkit-transition: all 150ms ease-in-out;
     transition: all 150ms ease-in-out;
   }
   
 .watch-button:hover {
-box-shadow: 0 0 10px 0 #3C747C inset, 0 0 10px 4px #3C747C;
+box-shadow: 0 0 10px 0 #679664 inset, 0 0 10px 4px #3B5639;
 }
 
 .ml5 {
     position: relative;
-    color: #FFF;
-    font-family: alien;
+    color: #E4EEE3;
+    font-family: trulymadly;
     margin-top: 2%;
     margin-bottom: 1%;
   }
@@ -375,7 +371,7 @@ box-shadow: 0 0 10px 0 #3C747C inset, 0 0 10px 4px #3C747C;
     margin: auto;
     height: 3px;
     width: 100%;
-    background-color: #3C7484;
+    background-color: #E4EEE3;
     transform-origin: 0.5 0;
   }
   
@@ -393,7 +389,7 @@ box-shadow: 0 0 10px 0 #3C747C inset, 0 0 10px 4px #3C747C;
 
 
 .line {
-    font-family: trulymadly;
+    font-family: playfair;
     position: relative;
     width: 8em;
     /* margin: 0 auto; */         /* Automatically centers text */
@@ -440,7 +436,7 @@ box-shadow: 0 0 10px 0 #3C747C inset, 0 0 10px 4px #3C747C;
             width: 0;
     }
     to {
-            width: 17.5em;
+            width: 20em;
     }
 }
 
@@ -449,7 +445,7 @@ box-shadow: 0 0 10px 0 #3C747C inset, 0 0 10px 4px #3C747C;
             width: 0;
     }
     to {
-            width: 7.5em;
+            width: 10em;
     }
 }
 
