@@ -111,10 +111,7 @@ body{
 h1 {
     color: #E4EEE3;
 }
-h4{
-    font-size: 16px;
-    color: #E4EEE3;
-}
+
 
 h2 {
     color: #E4EEE3;
@@ -129,6 +126,16 @@ h3{
     text-decoration: underline;
 }
 
+h4{
+    font-size: 16px;
+    color: #E4EEE3;
+}
+
+h5{
+    font-size: 14px;
+    margin-top: -4%;
+    color: #E4EEE3;
+}
 
 ul li {
     list-style: none;
@@ -229,37 +236,43 @@ figure {
     text-align: center;
 }
 
-.ctg-img {
-    border-radius: 50%;
-    border: 8px solid #1A373B;
-    height: 100px; 
-    width: 100px;
-}
-
-.ctg-img-left {
-    border-radius: 50%;
-    border: 8px solid #1A373B;
-    height: 100px; 
-    width: 100px;
-    margin-right: 20px;
-}
-
-.ctg-img-right {
-    border-radius: 50%;
-    border: 8px solid #1A373B;
-    height: 100px; 
-    width: 100px;
-    margin-left: 80px;
-}
 
 .ctg-row {
     display: inline-flex;
     margin-top: 3%;
 }
 
+
+.ctg-test-row {
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.ctg-pos {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+}
+
+.ctg-test-img {
+    border-radius: 5px;
+    height: 210px; 
+    width: 210px;
+}
+
+.subcaption {
+    display: block;
+}
+
+
+
+
+
+
+
 .h2-name {
     font-size: 24px;
-    width: 100%;
 }
 
 .tabs {
@@ -358,7 +371,7 @@ box-shadow: 0 0 10px 0 #679664 inset, 0 0 10px 4px #3B5639;
 .ml5 {
     position: relative;
     color: #E4EEE3;
-    font-family: alien;
+    font-family: trulymadly;
     margin-top: 2%;
     margin-bottom: 1%;
   }
@@ -445,7 +458,7 @@ box-shadow: 0 0 10px 0 #679664 inset, 0 0 10px 4px #3B5639;
             width: 0;
     }
     to {
-            width: 17.5em;
+            width: 20em;
     }
 }
 
@@ -454,7 +467,7 @@ box-shadow: 0 0 10px 0 #679664 inset, 0 0 10px 4px #3B5639;
             width: 0;
     }
     to {
-            width: 7.5em;
+            width: 10em;
     }
 }
 
