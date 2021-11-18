@@ -315,7 +315,7 @@
             <div class="ctg-test-row">
                 <p>&nbsp;</p>
                 <div class = "ctg-pos">
-                    <img class="ctg-test-img" src="https://i.imgur.com/uDS0mw9.jpg" alt="Alexis"></img>
+                    <img class="ctg-test-img" src="https://i.imgur.com/vsTLcdh.jpg" alt="Arthur"></img>
                     <span class="subcaption">
                         <h2>Arthur Tham</h2>
                         <h5>Stream Caster</h5>
@@ -323,7 +323,7 @@
                 </div>
                 &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
                 <div class = "ctg-pos">
-                    <img class="ctg-test-img" src="https://i.imgur.com/NPO2DRT.jpg" alt="Julio"></img>
+                    <img class="ctg-test-img" src="https://i.imgur.com/NYm5PJe.jpg" alt="Julio"></img>
                     <span class="subcaption">
                         <h2>Julio Tena</h2>
                         <h5>Stream Caster</h5>
@@ -346,14 +346,6 @@
                     </span>
                 </div>
             </div>
-
-            
-
-
-
-         
-            
-            
             <section id="footer">
                 <p>&nbsp;</p>
                 <p>&nbsp;</p>
