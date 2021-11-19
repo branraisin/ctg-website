@@ -3,7 +3,7 @@
     <head>
         <title>Change Thru Games 8</title>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
-        <link rel="shortcut icon" type="image/png" href="https://i.imgur.com/iisZaXN.png">
+        <link rel="shortcut icon" type="image/png" href="https://i.imgur.com/w6PkqLz.png">
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link href="index.css" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -315,7 +315,7 @@
             <div class="ctg-test-row">
                 <p>&nbsp;</p>
                 <div class = "ctg-pos">
-                    <img class="ctg-test-img" src="https://i.imgur.com/vsTLcdh.jpg" alt="Arthur"></img>
+                    <img class="ctg-test-img" src="https://i.imgur.com/bcfXtpF.jpeg" alt="Arthur"></img>
                     <span class="subcaption">
                         <h2>Arthur Tham</h2>
                         <h5>Stream Caster</h5>
@@ -323,7 +323,7 @@
                 </div>
                 &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
                 <div class = "ctg-pos">
-                    <img class="ctg-test-img" src="https://i.imgur.com/NYm5PJe.jpg" alt="Julio"></img>
+                    <img class="ctg-test-img" src="https://i.imgur.com/f5h70ss.jpg?1" alt="Julio"></img>
                     <span class="subcaption">
                         <h2>Julio Tena</h2>
                         <h5>Stream Caster</h5>
@@ -339,7 +339,7 @@
                 </div>
                 &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
                 <div class = "ctg-pos">
-                    <img class="ctg-test-img" src="https://i.imgur.com/91XxE1m.jpg" alt="Tin"></img>
+                    <img class="ctg-test-img" src="https://i.imgur.com/RdGeeFb.jpg?1" alt="Tin"></img>
                     <span class="subcaption">
                         <h2>Tin Luu</h2>
                         <h5>Stream Caster</h5>
